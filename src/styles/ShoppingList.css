@@ -9,3 +9,18 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.lmj-shopping-list button {
+  background-color: var(--green);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.lmj-shopping-list button:hover {
+  background-color: var(--green-dark);
+}
